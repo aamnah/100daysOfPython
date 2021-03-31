@@ -71,6 +71,41 @@ age = 12
 print(name + " likes " + interests) # Aamnah likes coding
 ```
 
+You can't concatenate a `string` and an `int`
+
 ```python
 print(name + " who is " + age + "year(s) old likes " + interests) # TypeError: can only concatenate str (not "int") to str
+```
+
+If you _cast_ (i.e. convert) the `int` as a `string` then it'll work
+
+```python
+print(name + " who is " + str(age) + "year(s) old likes " + interests) # TypeError: can only concatenate str (not "int") to str
+```
+
+### String formatting
+
+Basically, you have 4 ways of getting string formatting.
+
+- f-Strings (Python 3.6+)
+- `str.format` (slightly newer style)
+- `%` operator (old style, discourage but not deprecated. Very similar to `print-f` in _C_)
+- Template strings (from Standard Library)
+
+```python
+name = "Aly"
+age = 27
+
+a = 15
+b = 5
+
+# f-Strings
+print( f"the total of {a} + {b} is: {a + b}" )
+print( f"{name} is {age}" )
+
+# str.format()
+print( "{} is {}".format(name, age) )
+
+# string formatting operators
+print( "%s is %d" % (name, age) )
 ```

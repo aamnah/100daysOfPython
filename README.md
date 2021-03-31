@@ -11,3 +11,17 @@
 | Comments                       | `# comment`      |
 | Show stuff in the console      | `print()`        |
 | Take user input in the console | `input()`        |
+
+## String formatting
+
+```python
+# f-Strings
+print( f"the total of {a} + {b} is: {a + b}" )
+print( f"{name} is {age}" )
+
+# str.format()
+print( "{} is {}".format(name, age) )
+
+# string formatting operators
+print( "%s is %d" % (name, age) )
+```
