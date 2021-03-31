@@ -3,15 +3,15 @@
 
 # Python Syntax Cheatsheet
 
-| Description                    | Syntax                   | Example                      |
-| ------------------------------ | ------------------------ | ---------------------------- |
-| Variable                       | no `var` or `let` needed | `name = Aamnah`              |
-| Assignment operator            | `=`                      | `age = 27`                   |
-| Concatenation operator         | `+`                      | `"Hello " + name`            |
-| Comments                       | `# comment`              |                              |
-| Show stuff in the console      | `print()`                | print(`"Hello " + name`)     |
-| Take user input in the console | `input()`                | input("What is your name? ") |
-| Check the _type_ of data       | `type()`                 | `type(3.14)`                 |
+| Description                    | Syntax                   | Example                        |
+| ------------------------------ | ------------------------ | ------------------------------ |
+| Variable                       | no `var` or `let` needed | `name = "Aamnah"`              |
+| Assignment operator            | `=`                      | `age = 27`                     |
+| Concatenation operator         | `+`                      | `"Hello " + name`              |
+| Comments                       | `# comment`              |                                |
+| Show stuff in the console      | `print()`                | `print("Hello " + name)`       |
+| Take user input in the console | `input()`                | `input("What is your name? ")` |
+| Check the _type_ of data       | `type()`                 | `type(3.14)`                   |
 
 ## String formatting
 
