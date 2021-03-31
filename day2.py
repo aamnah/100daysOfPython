@@ -29,7 +29,8 @@ print(3 * 9) # 27 - multiply
 print(7 / 2) # 3.5 - divide (returns a float)
 print(7 // 2) # 3 - floor (returns an int)
 print(13 % 5) # 3 - modulus (remainder after division)
-print(2 ** 3) # 8 - exponet
-print(2 ** 3 ** 2) # 512 - exponet
+print(2 ** 3) # 8 - exponent
+print(2 ** 3 ** 2) # 512 - exponent
 
+#P-E-MD-AS (Left to Right)
 print( 3 + 3 - 3 / 3 * 3 ) # 3.0
